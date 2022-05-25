@@ -24,7 +24,9 @@ const victoriosa = {
     literaturaFavorito : {
         titulo: "El señor de los anillos",
         autor: "J.R.R. Tolkien",
-        editorial: "Minotauro"
+        editorial: "Minotauro",
+        url : "https://www.amazon.com.br/El-Se%C3%B1or-los-Anillos-Tolkien/dp/844500302X",
+        data: new Date('2016-05-31')
     },
 }
 
@@ -33,3 +35,4 @@ console.log('Edad: ' + victoriosa.edad);
 console.log('Tecnologias: ' + victoriosa.tecnologias);
 console.log('Literatura favorita: ' + victoriosa.literaturaFavorito.titulo + ' de ' + victoriosa.literaturaFavorito.autor);
 console.log('Color favorito: ' + victoriosa.coloresfavoritos[0]);
+console.log('Fecha publicacion libro favorito: ' + victoriosa.literaturaFavorito.data);
