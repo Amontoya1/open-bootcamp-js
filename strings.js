@@ -67,3 +67,20 @@ const nuevaLista = [
 const edad2 = nuevaLista.reverse((a, b) => a.Edad - b.Edad);
 
 console.log(edad2);
+
+class Estudiante {
+  constructor(nombre, asignaturas) {
+      this.nombre = nombre;
+      this.asignaturas = ["JavaScript", "Angular", "C#", "TypeScript"];
+  }
+
+  obtenDatos() {
+      console.log(`${this.nombre} ${this.asignaturas}`);
+  }
+}
+
+const nuevoEstudiante = new Estudiante("Andrea", "");
+console.log(nuevoEstudiante);
+
+nuevoEstudiante.obtenDatos();
+
